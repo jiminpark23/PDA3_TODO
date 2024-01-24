@@ -1,0 +1,47 @@
+.color-select {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.color-select button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.todolist-container {
+    display: flex;
+    gap: 25px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.todo-list {
+    display: flex;
+    width: 280px;
+    height: 30px;
+    padding: 15px 20px;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.btn-container {
+    width: 140px;
+    padding: 0;
+    margin-right:0;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1.8px;
+    margin-left: 6px;
+    background-color: white;
+}
